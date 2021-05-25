@@ -7,18 +7,26 @@
         <title>Laravel</title>
 
         <!-- Fonts -->
+        <link rel="preconnect" href="https://rsms.me">
         <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Kumbh+Sans:wght@700&family=JetBrains+Mono:wght@400,700&display=swap" rel="stylesheet">
+        <link href="https://rsms.me/inter/inter.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Red+Hat+Display:wght@700&family=Pacifico&display=swap  " rel="stylesheet">
 
         <!-- Styles -->
-        <style>
+        <link href="/css/app.css" rel="stylesheet">
+        <!-- <style>
             /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}a{background-color:transparent}[hidden]{display:none}html{font-family:system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;line-height:1.5}*,:after,:before{box-sizing:border-box;border:0 solid #e2e8f0}a{color:inherit;text-decoration:inherit}svg,video{display:block;vertical-align:middle}video{max-width:100%;height:auto}.bg-white{--bg-opacity:1;background-color:#fff;background-color:rgba(255,255,255,var(--bg-opacity))}.bg-gray-100{--bg-opacity:1;background-color:#f7fafc;background-color:rgba(247,250,252,var(--bg-opacity))}.border-gray-200{--border-opacity:1;border-color:#edf2f7;border-color:rgba(237,242,247,var(--border-opacity))}.border-t{border-top-width:1px}.flex{display:flex}.grid{display:grid}.hidden{display:none}.items-center{align-items:center}.justify-center{justify-content:center}.font-semibold{font-weight:600}.h-5{height:1.25rem}.h-8{height:2rem}.h-16{height:4rem}.text-sm{font-size:.875rem}.text-lg{font-size:1.125rem}.leading-7{line-height:1.75rem}.mx-auto{margin-left:auto;margin-right:auto}.ml-1{margin-left:.25rem}.mt-2{margin-top:.5rem}.mr-2{margin-right:.5rem}.ml-2{margin-left:.5rem}.mt-4{margin-top:1rem}.ml-4{margin-left:1rem}.mt-8{margin-top:2rem}.ml-12{margin-left:3rem}.-mt-px{margin-top:-1px}.max-w-6xl{max-width:72rem}.min-h-screen{min-height:100vh}.overflow-hidden{overflow:hidden}.p-6{padding:1.5rem}.py-4{padding-top:1rem;padding-bottom:1rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.pt-8{padding-top:2rem}.fixed{position:fixed}.relative{position:relative}.top-0{top:0}.right-0{right:0}.shadow{box-shadow:0 1px 3px 0 rgba(0,0,0,.1),0 1px 2px 0 rgba(0,0,0,.06)}.text-center{text-align:center}.text-gray-200{--text-opacity:1;color:#edf2f7;color:rgba(237,242,247,var(--text-opacity))}.text-gray-300{--text-opacity:1;color:#e2e8f0;color:rgba(226,232,240,var(--text-opacity))}.text-gray-400{--text-opacity:1;color:#cbd5e0;color:rgba(203,213,224,var(--text-opacity))}.text-gray-500{--text-opacity:1;color:#a0aec0;color:rgba(160,174,192,var(--text-opacity))}.text-gray-600{--text-opacity:1;color:#718096;color:rgba(113,128,150,var(--text-opacity))}.text-gray-700{--text-opacity:1;color:#4a5568;color:rgba(74,85,104,var(--text-opacity))}.text-gray-900{--text-opacity:1;color:#1a202c;color:rgba(26,32,44,var(--text-opacity))}.underline{text-decoration:underline}.antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.w-5{width:1.25rem}.w-8{width:2rem}.w-auto{width:auto}.grid-cols-1{grid-template-columns:repeat(1,minmax(0,1fr))}@media (min-width:640px){.sm\:rounded-lg{border-radius:.5rem}.sm\:block{display:block}.sm\:items-center{align-items:center}.sm\:justify-start{justify-content:flex-start}.sm\:justify-between{justify-content:space-between}.sm\:h-20{height:5rem}.sm\:ml-0{margin-left:0}.sm\:px-6{padding-left:1.5rem;padding-right:1.5rem}.sm\:pt-0{padding-top:0}.sm\:text-left{text-align:left}.sm\:text-right{text-align:right}}@media (min-width:768px){.md\:border-t-0{border-top-width:0}.md\:border-l{border-left-width:1px}.md\:grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}}@media (min-width:1024px){.lg\:px-8{padding-left:2rem;padding-right:2rem}}@media (prefers-color-scheme:dark){.dark\:bg-gray-800{--bg-opacity:1;background-color:#2d3748;background-color:rgba(45,55,72,var(--bg-opacity))}.dark\:bg-gray-900{--bg-opacity:1;background-color:#1a202c;background-color:rgba(26,32,44,var(--bg-opacity))}.dark\:border-gray-700{--border-opacity:1;border-color:#4a5568;border-color:rgba(74,85,104,var(--border-opacity))}.dark\:text-white{--text-opacity:1;color:#fff;color:rgba(255,255,255,var(--text-opacity))}.dark\:text-gray-400{--text-opacity:1;color:#cbd5e0;color:rgba(203,213,224,var(--text-opacity))}}
-        </style>
+        </style> -->
 
         <style>
-            body {
-                font-family: 'Inter', sans-serif;
-            }
+          html { font-family: "Inter", sans-serif; }
+          @supports (font-variation-settings: normal) {
+            html { font-family: "Inter var", sans-serif; }
+          }
+
+          code, pre {
+            font-family: "JetBrains Mono", monospace;
+          }
         </style>
     </head>
     <body class="antialiased">
@@ -96,7 +104,7 @@
                            id="path815-5" />
                         <text
                            xml:space="preserve"
-                           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.1667px;line-height:1;font-family:'Kumbh Sans';-inkscape-font-specification:'Kumbh Sans';letter-spacing:0px;word-spacing:0px;fill:#38bdf8;fill-opacity:1;stroke:none;stroke-width:0.264583"
+                           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.1667px;line-height:1;font-family:'Red Hat Display';-inkscape-font-specification:'Red Hat Display';letter-spacing:0px;word-spacing:0px;fill:#38bdf8;fill-opacity:1;stroke:none;stroke-width:0.264583"
                            x="241.39029"
                            y="2754.7722"
                            id="text1632-3"><tspan
@@ -107,7 +115,7 @@
                              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.1667px;font-family:Pacifico;-inkscape-font-specification:Pacifico;fill:#38bdf8;fill-opacity:1;stroke-width:0.264583">Shells!</tspan></text>
                         <text
                            xml:space="preserve"
-                           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1;font-family:'Kumbh Sans';-inkscape-font-specification:'Kumbh Sans';letter-spacing:0px;word-spacing:0px;fill:#38bdf8;fill-opacity:1;stroke:none;stroke-width:0.264583"
+                           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1;font-family:'Red Hat Display';-inkscape-font-specification:'Red Hat Display';letter-spacing:0px;word-spacing:0px;fill:#38bdf8;fill-opacity:1;stroke:none;stroke-width:0.264583"
                            x="213.06778"
                            y="2730.6851"
                            id="text1636-75"><tspan
@@ -118,7 +126,7 @@
                              id="tspan1646-3">Buddies of the </tspan></text>
                         <text
                            xml:space="preserve"
-                           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;line-height:1;font-family:'Kumbh Sans';-inkscape-font-specification:'Kumbh Sans';letter-spacing:0px;word-spacing:0px;fill:#38bdf8;fill-opacity:1;stroke:none;stroke-width:0.264583"
+                           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;line-height:1;font-family:'Red Hat Display';-inkscape-font-specification:'Red Hat Display';letter-spacing:0px;word-spacing:0px;fill:#38bdf8;fill-opacity:1;stroke:none;stroke-width:0.264583"
                            x="251.78563"
                            y="2761.6233"
                            id="text1656-5"><tspan
@@ -126,7 +134,7 @@
                              id="tspan1654-6"
                              x="251.78563"
                              y="2761.6233"
-                             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.29167px;font-family:'Kumbh Sans';-inkscape-font-specification:'Kumbh Sans';fill:#38bdf8;fill-opacity:1;stroke-width:0.264583">A       Reinhart project</tspan></text>
+                             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.29167px;font-family:'Red Hat Display';-inkscape-font-specification:'Red Hat Display';fill:#38bdf8;fill-opacity:1;stroke-width:0.264583">A        Reinhart project</tspan></text>
                         <g
                            id="g2083-3-36-2"
                            transform="matrix(0.33333333,0,0,0.33333333,60.16776,2727.4539)">
@@ -144,7 +152,7 @@
                              r="37.041668" />
                           <text
                              xml:space="preserve"
-                             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.8667px;line-height:1;font-family:'Kumbh Sans';-inkscape-font-specification:'Kumbh Sans';letter-spacing:0px;word-spacing:0px;white-space:pre;inline-size:0;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+                             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.8667px;line-height:1;font-family:'Red Hat Display';-inkscape-font-specification:'Red Hat Display';letter-spacing:0px;word-spacing:0px;white-space:pre;inline-size:0;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
                              x="183.40569"
                              y="92.456001"
                              id="text871-9-9-5-5-27"
@@ -152,7 +160,7 @@
                                id="tspan869-2-7-3-6-0"
                                x="183.40569"
                                y="92.456001"
-                               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:33.8667px;font-family:'Kumbh Sans';-inkscape-font-specification:'Kumbh Sans';text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:0.8;stroke-width:0.264583"><tspan
+                               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:33.8667px;font-family:'Red Hat Display';-inkscape-font-specification:'Red Hat Display';text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:0.8;stroke-width:0.264583"><tspan
                      style="fill:none"
                      id="tspan2022-5-29-9">&gt;</tspan>&gt;_</tspan></text>
                         </g>
@@ -166,12 +174,13 @@
                         <div class="p-6">
                             <div class="flex items-center">
                                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-8 h-8 text-gray-500"><path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg>
-                                <div class="ml-4 text-lg leading-7 font-semibold"><a href="https://laravel.com/docs" class="underline text-gray-900 dark:text-white">Documentation</a></div>
+                                <div class="ml-4 text-lg leading-7 font-semibold text-gray-900 dark:text-white">Our <code class="text-orange-400">127.0.0.1</code></div>
                             </div>
 
                             <div class="ml-12">
                                 <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
-                                    Laravel has wonderful, thorough documentation covering every aspect of the framework. Whether you are new to the framework or have previous experience with Laravel, we recommend reading all of the documentation from beginning to end.
+                                    <b>This website is our home,</b> the <code class="font-bold text-orange-400">127.0.0.1</code> (aka. the <code class="font-bold text-orange-400">localhost</code>) of ourselves. Don't confuse our <code class="font-bold text-orange-400">127.0.0.1</code> with your <code>127.0.0.1</code>, 'cause everyone deserves a <code>127.0.0.1</code> of their own.<br><br>
+                                    This site also contains our abilities to interact with you through the <code class="font-bold text-purple-400">Interface</code>, where messages sent by you and us will be handled directly on the backends of this website.
                                 </div>
                             </div>
                         </div>
@@ -179,12 +188,19 @@
                         <div class="p-6 border-t border-gray-200 dark:border-gray-700 md:border-t-0 md:border-l">
                             <div class="flex items-center">
                                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-8 h-8 text-gray-500"><path d="M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z"></path><path d="M15 13a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
-                                <div class="ml-4 text-lg leading-7 font-semibold"><a href="https://laracasts.com" class="underline text-gray-900 dark:text-white">Laracasts</a></div>
+                                <div class="ml-4 text-lg leading-7 font-semibold"><a href="https://laracasts.com" class="underline text-gray-900 dark:text-white">The <code class="text-green-400">roothouse</code></a></div>
                             </div>
 
                             <div class="ml-12">
                                 <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
-                                    Laracasts offers thousands of video tutorials on Laravel, PHP, and JavaScript development. Check them out, see for yourself, and massively level up your development skills in the process.
+                                    The <code class="font-bold text-green-400">roothouse</code> is where we share our stories to people all around the world. Everyone is invited to the <code class="font-bold text-green-400">roothouse</code> for all things <code class="font-bold text-green-400">root</code>:<br><br>
+                                    <ul class="list-disc">
+                                        <li>The <b>linked list</b> of our <code class="font-bold text-green-400">logs</code> and relationships,</li>
+                                        <li>Actual <code class="font-bold text-green-400">root</code> and <code class="font-bold text-yellow-400">sudo</code> tips that you can do for good,</li>
+                                        <li>Transform yourself into <code class="font-bold text-green-400">root</code> and meet others in the <code class="font-bold text-green-400">rootverse</code>.</li>
+                                    </ul><br>
+                                    The powers of the <code class="font-bold text-green-400">root</code> grows strong in <b class="text-pink-400">Nix</b> and even stronger in <b class="text-green-400">Mallory</b>, that she starts accidentally turn everyone else into <code class="font-bold text-green-400">root</code> and still can't get enough! Similarly, we have to expand the <code class="font-bold text-green-400">roothouse</code> beyond <code class="font-bold text-orange-400">127.0.0.1</code> and GitHub, to Instagram, Twitter, and beyond.<br><br>
+                                    Wait, did <b class="text-green-400">Mallory</b> just turn you into <code class="font-bold text-green-400">root</code>? Welcome to the <code class="font-bold text-green-400">rootverse</code>, buddy!
                                 </div>
                             </div>
                         </div>
@@ -192,12 +208,14 @@
                         <div class="p-6 border-t border-gray-200 dark:border-gray-700">
                             <div class="flex items-center">
                                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-8 h-8 text-gray-500"><path d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z"></path></svg>
-                                <div class="ml-4 text-lg leading-7 font-semibold"><a href="https://laravel-news.com/" class="underline text-gray-900 dark:text-white">Laravel News</a></div>
+                                <div class="ml-4 text-lg leading-7 font-semibold"><a href="#" class="underline text-gray-900 dark:text-white">The <code class="font-bold text-lightBlue-400">SYSTEMDOCS</code></a></div>
                             </div>
 
                             <div class="ml-12">
                                 <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
-                                    Laravel News is a community driven portal and newsletter aggregating all of the latest and most important news in the Laravel ecosystem, including new package releases and tutorials.
+                                    The <code class="font-bold text-lightBlue-400">SYSTEMDOCS</code> is where the majority of our documentations are located at. It's basically the <b>Knowledge Base</b> of everything related to us: the organization, characters, abilities, definitions, and beliefs.<br><br>
+                                    You can use the power of <code class="font-bold text-lightBlue-400">SYSTEMDOCS</code> to understand what we are talking about, like the actual meaning of <code class="font-bold text-green-400">root</code>, why we name this place as <code class="font-bold text-orange-400">127.0.0.1</code>, and why <b class="text-pink-400">Nix</b> has such a very long hair.<br><br>
+                                    Believe us, master the <code class="font-bold text-lightBlue-400">SYSTEMDOCS</code> and you'll be able to speak our <code class="font-bold text-lightBlue-400">real</code> language, and transform yourself into a member of the <code class="font-bold text-lightBlue-400">SYSTEM</code>, the administrator of BOTS!
                                 </div>
                             </div>
                         </div>
@@ -205,12 +223,40 @@
                         <div class="p-6 border-t border-gray-200 dark:border-gray-700 md:border-l">
                             <div class="flex items-center">
                                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-8 h-8 text-gray-500"><path d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                                <div class="ml-4 text-lg leading-7 font-semibold text-gray-900 dark:text-white">Vibrant Ecosystem</div>
+                                <div class="ml-4 text-lg leading-7 font-semibold text-gray-900 dark:text-white">Our <code class="text-purple-400">Interface</code></div>
                             </div>
 
                             <div class="ml-12">
                                 <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
-                                    Laravel's robust library of first-party tools and libraries, such as <a href="https://forge.laravel.com" class="underline">Forge</a>, <a href="https://vapor.laravel.com" class="underline">Vapor</a>, <a href="https://nova.laravel.com" class="underline">Nova</a>, and <a href="https://envoyer.io" class="underline">Envoyer</a> help you take your projects to the next level. Pair them with powerful open source libraries like <a href="https://laravel.com/docs/billing" class="underline">Cashier</a>, <a href="https://laravel.com/docs/dusk" class="underline">Dusk</a>, <a href="https://laravel.com/docs/broadcasting" class="underline">Echo</a>, <a href="https://laravel.com/docs/horizon" class="underline">Horizon</a>, <a href="https://laravel.com/docs/sanctum" class="underline">Sanctum</a>, <a href="https://laravel.com/docs/telescope" class="underline">Telescope</a>, and more.
+                                    Sure, everyone loves our stories and the <code class="font-bold text-green-400">roothouse</code>, but we also need to handle some <b>real-world</b> issues out there, especially when it comes to security and privacy.<br><br>
+                                    <b>If you are being contacted by us from <code class="font-bold text-purple-400">interface@bots.reinhart1010.id</code>, it means that we have some serious things to talk about, whether it's an automated <code>noreply</code> message or not.</b><br><br>
+                                    To learn more about email messages sent from us, please visit <code class="font-bold"><b class="text-lightBlue-400">SYSTEMDOCS</b>/EMAILS/INTERFACE.MD</code>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="p-6 border-t border-gray-200 dark:border-gray-700">
+                            <div class="flex items-center">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-8 h-8 text-gray-500"><path d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z"></path></svg>
+                                <div class="ml-4 text-lg leading-7 font-semibold text-gray-900 dark:text-white">Our <code class="text-yellow-400">Research Center</code></div>
+                            </div>
+
+                            <div class="ml-12">
+                                <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
+                                    Ever wondered how you can express yourself as a <code class="font-bold text-green-400">root</code>, <code class="font-bold text-lightBlue-400">SYSTEM</code>, or both? We're wondering about that, too!<br><br>
+                                    We are currently working on new, different ways to interact and be part of us, such as an account system that identifies <B>you</b> as our member across our website and official social media accounts.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="p-6 border-t border-gray-200 dark:border-gray-700 md:border-l">
+                            <div class="flex items-center">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-8 h-8 text-gray-500"><path d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                                <div class="ml-4 text-lg leading-7 font-semibold text-gray-900 dark:text-white">And Finally,</div>
+                            </div>
+
+                            <div class="ml-12">
+                                <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">The creation of <strong>Buddies of the Shells</strong> is not possible without turning @reinhart1010 into a freak of 3 <a href="https://binus.ac.id" class="text-blue-400">BINUS UNIVERSITY</a> courses (<a href="https://curriculum.binus.ac.id/course/comp6047/" class="text-blue-400">COMP6047 - Algorithm and Programming</a>, <a href="https://curriculum.binus.ac.id/course/comp6175/" class="text-blue-400">COMP6175 - Object Oriented Programming</a>, and <a href="https://curriculum.binus.ac.id/course/char6013/" class="text-blue-400">CHAR6013 - Character Building: Pancasila</a>), asking whether he's a robot or not (of course I'm not, you robot!), a victim of several cases of bullying, and finally a not-your-average Kali Linux user while still looking at Massachusetts Institute of Technology. Here's the <a href="/reinhart1010/bots/blob/main/LICENSE">MIT License</a> for you, <a href="https://en.wikipedia.org/wiki/Hacks_at_the_Massachusetts_Institute_of_Technology#IHTFP" class="text-blue-400"><strong>I</strong> <strong>H</strong>ave <strong>T</strong>ruly <strong>F</strong>ound <strong>P</strong>aradise</a>!
                                 </div>
                             </div>
                         </div>
