@@ -7,7 +7,8 @@
         <title>Laravel</title>
 
         <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Kumbh+Sans:wght@700&family=JetBrains+Mono:wght@400,700&display=swap" rel="stylesheet">
 
         <!-- Styles -->
         <style>
@@ -16,7 +17,7 @@
 
         <style>
             body {
-                font-family: 'Nunito', sans-serif;
+                font-family: 'Inter', sans-serif;
             }
         </style>
     </head>
@@ -95,7 +96,7 @@
                            id="path815-5" />
                         <text
                            xml:space="preserve"
-                           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.1667px;line-height:1;font-family:'IBM Plex Serif';-inkscape-font-specification:'IBM Plex Serif';letter-spacing:0px;word-spacing:0px;fill:#38bdf8;fill-opacity:1;stroke:none;stroke-width:0.264583"
+                           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.1667px;line-height:1;font-family:'Kumbh Sans';-inkscape-font-specification:'Kumbh Sans';letter-spacing:0px;word-spacing:0px;fill:#38bdf8;fill-opacity:1;stroke:none;stroke-width:0.264583"
                            x="241.39029"
                            y="2754.7722"
                            id="text1632-3"><tspan
@@ -106,18 +107,18 @@
                              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.1667px;font-family:Pacifico;-inkscape-font-specification:Pacifico;fill:#38bdf8;fill-opacity:1;stroke-width:0.264583">Shells!</tspan></text>
                         <text
                            xml:space="preserve"
-                           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1;font-family:'IBM Plex Serif';-inkscape-font-specification:'IBM Plex Serif';letter-spacing:0px;word-spacing:0px;fill:#38bdf8;fill-opacity:1;stroke:none;stroke-width:0.264583"
+                           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1;font-family:'Kumbh Sans';-inkscape-font-specification:'Kumbh Sans';letter-spacing:0px;word-spacing:0px;fill:#38bdf8;fill-opacity:1;stroke:none;stroke-width:0.264583"
                            x="213.06778"
                            y="2730.6851"
                            id="text1636-75"><tspan
                              sodipodi:role="line"
                              x="213.06778"
                              y="2730.6851"
-                             style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:Inter;-inkscape-font-specification:'Inter Semi-Bold';fill:#38bdf8;fill-opacity:1;stroke-width:0.264583"
+                             style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-family:Inter;-inkscape-font-specification:'Inter Bold';fill:#38bdf8;fill-opacity:1;stroke-width:0.264583"
                              id="tspan1646-3">Buddies of the </tspan></text>
                         <text
                            xml:space="preserve"
-                           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;line-height:1;font-family:'IBM Plex Serif';-inkscape-font-specification:'IBM Plex Serif';letter-spacing:0px;word-spacing:0px;fill:#38bdf8;fill-opacity:1;stroke:none;stroke-width:0.264583"
+                           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;line-height:1;font-family:'Kumbh Sans';-inkscape-font-specification:'Kumbh Sans';letter-spacing:0px;word-spacing:0px;fill:#38bdf8;fill-opacity:1;stroke:none;stroke-width:0.264583"
                            x="251.78563"
                            y="2761.6233"
                            id="text1656-5"><tspan
@@ -143,7 +144,7 @@
                              r="37.041668" />
                           <text
                              xml:space="preserve"
-                             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.8667px;line-height:1;font-family:'IBM Plex Serif';-inkscape-font-specification:'IBM Plex Serif';letter-spacing:0px;word-spacing:0px;white-space:pre;inline-size:0;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+                             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.8667px;line-height:1;font-family:'Kumbh Sans';-inkscape-font-specification:'Kumbh Sans';letter-spacing:0px;word-spacing:0px;white-space:pre;inline-size:0;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
                              x="183.40569"
                              y="92.456001"
                              id="text871-9-9-5-5-27"
@@ -151,7 +152,7 @@
                                id="tspan869-2-7-3-6-0"
                                x="183.40569"
                                y="92.456001"
-                               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:33.8667px;font-family:'Red Hat Display';-inkscape-font-specification:'Red Hat Display';text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:0.8;stroke-width:0.264583"><tspan
+                               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:33.8667px;font-family:'Kumbh Sans';-inkscape-font-specification:'Kumbh Sans';text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:0.8;stroke-width:0.264583"><tspan
                      style="fill:none"
                      id="tspan2022-5-29-9">&gt;</tspan>&gt;_</tspan></text>
                         </g>
